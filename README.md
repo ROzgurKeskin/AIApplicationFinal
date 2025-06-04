@@ -1,0 +1,2 @@
+# AIApplicationFinal
+yapay zeka uygulamaları
