@@ -44,10 +44,11 @@ def predict_with_team_names(model, scaler, feature_cols, team_to_index, input_te
         "FirstTeamEncoded": first_team_encoded,
         "SecondTeamEncoded": second_team_encoded,
     }
-    # Diğer feature'ları sıfırla
+    #Diğer feature'ları sıfırla
     for col in feature_cols:
         if col not in input_dict:
             input_dict[col] = 0
+
     # Tahmin fonksiyonunu çağır
     return predict_match_result(model, scaler, feature_cols, input_dict)
 
@@ -67,6 +68,6 @@ with open("model/scaler.pkl", "rb") as f:
 
 team_to_index = getTeamToIndex()
 
-input_teams = {'FirstTeam': 'Antalya', 'SecondTeam': 'Kayseri'}
+input_teams = {'FirstTeam': 'Antalyaspor', 'SecondTeam': 'Kayserispor'}
 tahmin, olasilik = predict_with_team_names(loaded_model, scaler, loaded_feature_cols, team_to_index, input_teams)
 print(f"Tahmin edilen sonuç: {tahmin} (Olasılık:% {olasilik*100:.2f})")

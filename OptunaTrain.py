@@ -10,7 +10,6 @@ from sklearn.metrics import ConfusionMatrixDisplay, accuracy_score
 from torch.utils.data import TensorDataset, DataLoader
 
 from FinalAnnModel import FinalANN
-from annModel import ANNModel
 from library import ProcessDataSet, calculate_head_to_head_win_rate, calculate_recent_points, calculate_win_rate, get_last5_wins
 from library import feature_cols, activation_map
 
@@ -28,6 +27,12 @@ from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 ftX = scaler.fit_transform(ftX)
 
+import pickle
+
+# Eğitimde scaler'ı fit ettikten sonra kaydediyoruz
+with open("model/scaler.pkl", "wb") as f:
+    pickle.dump(scaler, f)
+
 device = torch.device("cpu")
 
 
@@ -36,7 +41,6 @@ import optuna
 import torch.nn.functional as F
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 

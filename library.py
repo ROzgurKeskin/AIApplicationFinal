@@ -73,7 +73,7 @@ def ProcessDataSet():
     matchResultEncodedFile = "C:\\PythonProject\\Github Project\\YapayZekaFinal\\Sample_AllMatchsResults_encoded.xlsx"
 
     # Eğer encoded dosya yoksa, veriyi encode et ve kaydet
-    if os.path.exists(matchResultEncodedFile)==False:
+    if os.path.exists(matchResultEncodedFile) is False:
         print("Encoded dosyası yok, datalar encode ediliyor...")
         df = pd.read_excel(matchResultSourceFile)
         team_to_index = {team: idx for idx, team in enumerate(pd.unique(df[['FirstTeam', 'SecondTeam']].values.ravel()))}
