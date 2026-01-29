@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "MainCategory": "Undefined",
+      "patterns": [
+        "bir bahar akşamı rastladım sana",
+        "raporlar yavaş alınıyor",
+        "meta-llama/Meta-Llama-3-8B-Instruct",
+        "ankaraya gidelim diyorum"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "intents": [
+    {
+      "MainCategory": "Hata",
+      "Items":[
+        {"SubCategory":"Bağlantı sorunu","Patterns":[
+          "İnternet bağlantım sürekli kopuyor, yardımcı olur musunuz?",
+          "Ağ bağlantısı kurulamıyor, sistemde bir sorun mu var?",
+          "Wi-Fi ağına bağlanamıyorum, ne yapmalıyım?",
+          "Sunucuya erişimim kesildi, bağlantı problemi olabilir mi?",
+          "VPN bağlantısı sürekli düşüyor, kontrol edebilir misiniz?",
+          "Kablosuz ağda bağlantı hatası alıyorum, çözüm nedir?",
+          "Ağda yavaşlık var, bağlantı sorununu inceleyebilir misiniz?",
+          "Ethernet kablosu takılı ama bağlantı yok, neden olabilir?",
+          "Bağlantı kopuyor ve tekrar bağlanamıyorum, destek alabilir miyim?",
+          "Ağ bağlantısı kurulamıyor, IT ekibiyle iletişime geçebilir miyim?",
+          "VPN'e bağlanmaya çalışırken sürekli kopmalar yaşıyorum. Bağlantı bir türlü stabil kalmıyor, dosyalara erişirken veya sistemleri kullanırken sürekli dışarı atıyor. İnternetimde bir sorun yok ama VPN tarafında bir sıkıntı var gibi görünüyor. Şu durumu bir kontrol edebilir misiniz? İşler çok aksıyor."
+        ]},
+        {"SubCategory":"Erişim hatası","Patterns":[
+          "Dosyaya erişim iznim yok, açamıyorum.",
+          "Sisteme giriş yapamıyorum, erişim hatası alıyorum.",
+          "Paylaşılan klasöre ulaşamıyorum, yetkim var mı?",
+          "Uygulamaya erişimim engellendi, neden olabilir?",
+          "Veritabanına erişemiyorum, hata mesajı alıyorum.",
+          "Kullanıcı hesabımla giriş yapamıyorum, destek alabilir miyim?",
+          "Yetkim olmasına rağmen dosyaya erişemiyorum.",
+          "Sistemde erişim hatası oluştu, çözüm için ne yapmalıyım?",
+          "Erişim iznim yok, dosyayı açamıyorum.",
+          "Klasöre erişimim engellendi, IT ile görüşebilir miyim?",
+          "SAP'a girmeye çalıştığımda sunucu yanıt vermiyor uyarısı alıyorum. Sistem çok ağır, bazen hiç açılmıyor. Dosya sunucusuna da erişim sağlayamıyorum şu an. Genel bir kesinti mi var? Kontrol edip bilgi verirseniz çok iyi olur."
+        ]},
+        {"SubCategory":"Sistem hatası","Patterns":[
+          "Sistem sürekli hata veriyor, işlem yapamıyorum.",
+          "Uygulama açılırken sistem hatası alıyorum.",
+          "Sistem kilitleniyor ve yanıt vermiyor.",
+          "Sistemden hata mesajı alıyorum, çözüm nedir?",
+          "Sistem güncellemesinden sonra hata oluştu.",
+          "Sistem hatası nedeniyle dosya kaydedilemiyor.",
+          "Sistem açılmıyor, hata kodu ekranda görünüyor.",
+          "Sistem hatası nedeniyle işlem tamamlanamıyor.",
+          "Sistem hatası alıyorum, IT ekibiyle görüşebilir miyim?",
+          "Sistem hatası yüzünden program kapanıyor."
+        ]},
+        {"SubCategory":"Uygulama çalışmıyor",
+          "Patterns":[
+            "Merhaba, İK portalına ve ERP sistemine girmeye çalıştığımda sayfa bir türlü yüklenmiyor. Bazen tam işlem yapacakken ekran donuyor ve sistemden atıyor. Giriş yaparken de çok bekletiyor, bir türlü ilerleyemiyorum. Sistemlerde genel bir yavaşlık mı var yoksa benim kullanıcımla mı ilgili bir durum? Bakabilirseniz sevinirim. Kolay gelsin.",
+            "Selam, Bugün sabah saatlerinden beri CRM uygulamasına erişim sağlayamıyorum. Giriş yapmaya çalıştığımda sürekli hata veriyor ve sayfa açılmıyor. İnternet bağlantımda bir sorun yok, diğer sitelere sorunsuz girebiliyorum. Acil müşteri verilerine ulaşmam gerekiyor, bu konuda yardımcı olabilir misiniz? Teşekkürler.",
+            "Merhaba, Raporlama aracına erişmeye çalıştığımda sürekli zaman aşımı hatası alıyorum. Sayfa yüklenmiyor ve işlem yapamıyorum. Diğer uygulamalarda da benzer sorunlar yaşıyorum, genel bir sistem problemi olabilir mi? Kontrol edip bilgi verirseniz çok sevinirim. İyi çalışmalar.",
+            "Selamlar, E-posta istemcisine erişmeye çalıştığımda sürekli hata mesajları alıyorum ve maillerime ulaşamıyorum. İnternet bağlantım stabil ama uygulama bir türlü açılmıyor. Acil olarak bazı maillere erişmem gerekiyor, bu konuda yardımcı olabilir misiniz? Teşekkürler.",
+            "Uygulamayı açtığımda direkt kapanıyor ya da işlem yaparken garip uyarılar verip beni dışarı atıyor. Bilgisayarı kapatıp açtım ama düzelmedi. Özellikle raporlama kısmına girdiğimde sistem kilitleniyor. Acil halletmem gereken işler var, yardımcı olur musunuz?"
+            ]},
+        {"SubCategory":"Hata mesajı alıyorum","Patterns":[
+          "Ekranda hata mesajı çıkıyor, ne yapmalıyım?",
+          "Uygulama açılırken hata mesajı alıyorum.",
+          "Dosya kaydederken hata mesajı veriyor.",
+          "Giriş yaparken hata mesajı ile karşılaşıyorum.",
+          "Sistem hata mesajı gösteriyor, çözüm nedir?",
+          "Hata mesajı nedeniyle işlem tamamlanmıyor.",
+          "Hata mesajı ekranda sürekli çıkıyor.",
+          "Hata mesajı alıyorum, IT ile iletişime geçebilir miyim?",
+          "Hata mesajı yüzünden program kapanıyor.",
+          "Hata mesajı kodu ekranda görünüyor."
+        ]}
+      ]
+    },
+    {
+      "MainCategory": "Talep",
+      "Items": [
+        {"SubCategory":"Donanım talebi","Patterns":[
+          "Yeni bir dizüstü bilgisayara ihtiyacım var.",
+          "Monitör talebinde bulunmak istiyorum.",
+          "Klavye ve mouse talebim var.",
+          "Yedek batarya talep ediyorum.",
+          "Harici disk talebim var, mümkün mü?",
+          "Webcam talebinde bulunmak istiyorum.",
+          "Yeni bir masaüstü bilgisayar talep ediyorum.",
+          "Ekstra USB bellek talebim var.",
+          "Yazıcı talebinde bulunmak istiyorum.",
+          "Donanım ihtiyacım için destek alabilir miyim?"
+        ]},
+        {"SubCategory":"Erişim talebi","Patterns":[
+          "Paylaşılan klasöre erişim talep ediyorum.",
+          "Sisteme giriş izni talep ediyorum.",
+          "Uygulamaya erişim izni istiyorum.",
+          "Veritabanına erişim talebim var.",
+          "Kullanıcı hesabıma erişim izni istiyorum.",
+          "Dosyaya erişim izni talep ediyorum.",
+          "Klasöre erişim izni istiyorum.",
+          "Sisteme erişim izni talep ediyorum.",
+          "Uygulamaya erişim izni talebim var.",
+          "Erişim izni için IT ile görüşebilir miyim?",
+          "Beni ilgili mail grubuna ekleyebilir misiniz? Gruptan gelen bilgilendirmeleri almam gerekiyor ama şu an listede yokum sanırım. Yetki verirseniz sevinirim.",
+          "Yeni başlayan personel için CRM sistemine giriş yetkisi lazım. Kullanıcı hesabını oluşturup gerekli modülleri açabilir misiniz? Şimdiden teşekkürler, iyi çalışmalar."
+        ]},
+        {"SubCategory":"Rapor talebi","Patterns":[
+          "Aylık satış raporunu talep ediyorum.",
+          "Personel raporu talebim var.",
+          "Finansal rapor talep ediyorum.",
+          "Stok raporu talebinde bulunmak istiyorum.",
+          "Müşteri raporu talep ediyorum.",
+          "Proje raporu talebim var.",
+          "Günlük performans raporu talep ediyorum.",
+          "Rapor talebim için destek alabilir miyim?",
+          "Yönetim raporu talep ediyorum.",
+          "Rapor talebinde bulunmak istiyorum."
+        ]},
+        {"SubCategory":"VPN erişim isteği","Patterns":[
+          "VPN erişimi talep ediyorum.",
+          "VPN bağlantısı için izin istiyorum.",
+          "VPN erişim izni talebim var.",
+          "VPN bağlantısı kurmak istiyorum.",
+          "VPN erişimi için destek alabilir miyim?",
+          "VPN bağlantısı talebinde bulunmak istiyorum.",
+          "VPN erişim izni istiyorum.",
+          "VPN bağlantısı için IT ile görüşebilir miyim?",
+          "VPN erişimi için başvuru yaptım, onaylanabilir mi?",
+          "VPN erişim talebim var, yardımcı olur musunuz?",
+          "Ekibe yeni bir arkadaşımız katıldı. Evden çalışabilmesi için bilgisayarına VPN kurulması gerekiyor. Gerekli yetkileri tanımlayıp kurulum için yardımcı olabilir misiniz?"
+          ]},
+        {"SubCategory":"Yeni kullanıcı isteği","Patterns":[
+          "Yeni bir kullanıcı hesabı açmak istiyorum.",
+          "Yeni çalışan için kullanıcı hesabı talep ediyorum.",
+          "Yeni kullanıcı eklenmesi gerekiyor.",
+          "Yeni kullanıcı hesabı oluşturulabilir mi?",
+          "Yeni kullanıcı için IT ile görüşebilir miyim?",
+          "Yeni kullanıcı hesabı talebim var.",
+          "Yeni kullanıcı eklenmesi için destek alabilir miyim?",
+          "Yeni kullanıcı hesabı açılması gerekiyor.",
+          "Yeni kullanıcı için başvuru yaptım, onaylanabilir mi?",
+          "Yeni kullanıcı hesabı açmak için ne yapmalıyım?"
+        ]},
+        {"SubCategory":"Yetki talebi","Patterns":[
+          "Dosya üzerinde yetki talep ediyorum.",
+          "Klasöre yazma yetkisi istiyorum.",
+          "Uygulamada yönetici yetkisi talep ediyorum.",
+          "Sistemde ek yetki talebim var.",
+          "Veritabanında okuma yetkisi istiyorum.",
+          "Yetki talebim için IT ile görüşebilir miyim?",
+          "Kullanıcı hesabıma ek yetki talep ediyorum.",
+          "Yetki talebinde bulunmak istiyorum.",
+          "Sistemde yetki artırımı talep ediyorum.",
+          "Yetki talebim var, yardımcı olur musunuz?"
+        ]}
+      ]
+    }
+  ]
+}
